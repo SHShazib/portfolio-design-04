@@ -286,3 +286,44 @@ h4{
     color: #16a085;
     margin-top: 5px;
 }
+.input-bar {
+    color: #191919;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+.input-bar:hover {
+    box-shadow: 0 0 5px #fff,0 0 10px #ddd;
+}
+.input-bar form div {
+    margin: 20px 0px;
+}
+.input-bar form div label {
+    font-size: 20px;
+    margin: 5px 0px;
+}
+.input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #212f3d;
+}
+.check-send {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.check-send button {
+    padding: 10px 25px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+}
+.check {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
