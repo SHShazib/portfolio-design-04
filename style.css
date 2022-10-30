@@ -16,7 +16,7 @@
 }
 section {
     width: 100%;
-    padding: 100px 12%;
+    padding: 80px 12%;
     height: auto;
     background-color: var(--bg2-color);
 }
@@ -92,6 +92,7 @@ span{
     margin-bottom: 35px;
     display: block;
     color: var(--text-color);
+    border-bottom: 6px solid #16a085;
 }
 .text p {
     color: var(--text-color);
@@ -260,6 +261,28 @@ h4{
 }
 .social .links ul li a:hover  {
     color: #e67e22;
-
 }
 
+/* =========Contact Section========= */
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 2rem;
+}
+.address {
+    color: #fff;
+    font-size: 1rem;
+}
+.address h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.address p {
+    color: #9b59b6;
+    margin-bottom: 15px;
+}
+.address i {
+    font-size: 25px;
+    color: #16a085;
+    margin-top: 5px;
+}
